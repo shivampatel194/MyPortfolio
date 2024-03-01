@@ -1,0 +1,58 @@
+.introContent{
+    
+}
+
+#intro{
+    display: flex;
+    max-width: 90rem;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.profileImg{
+    object-fit: cover;
+    z-index: -1;
+    height: 35rem;
+    width: 35rem;
+}
+
+.introContent{
+    padding-top: 10rem;
+    padding-left: 10rem ;
+    font-family: poppins;
+}
+
+.hello{
+    font-size: 35px;
+    font-family: poppins;
+
+}
+
+.introText{
+    font-size: 40px;
+    font-family: poppins;
+
+}
+
+.introName{
+    color: yellow;
+    font-family: poppins;
+
+}
+
+.introPara{
+    font-size: 25px;
+}
+
+.hireBtn{
+color:  aliceblue;   
+height: 3rem;
+width: 8rem; 
+border-radius: 10px;
+background-color: rgb(104, 157, 236);
+cursor: pointer;
+margin-top: 30px;
+font-family: poppins;
+font-size: 18px;
+border: none;
+}
